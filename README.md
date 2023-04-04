@@ -27,7 +27,7 @@
 
     cd kafka_with_docker
     
-    sudo docker compose up -d
+    sudo docker-compose up -d
     
     sudo docker ps
 
