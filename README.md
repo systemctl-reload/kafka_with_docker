@@ -1,4 +1,4 @@
-# kafka_with_docker
+# Install Docker
 
 
 
@@ -23,6 +23,7 @@
 
     sudo apt install docker-compose -y
 
+# start kafka
 
     cd kafka_with_docker
     
