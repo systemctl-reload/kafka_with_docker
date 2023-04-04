@@ -22,3 +22,8 @@
 
 
     sudo apt install docker-compose -y
+
+
+    cd kafka_with_docker
+    
+    sudo docker compose up -d
