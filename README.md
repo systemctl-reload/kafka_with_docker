@@ -34,6 +34,8 @@
 
 # Producer & Consumer
 
+    docker exec -it kafka1 bash
+
     kafka-console-producer.sh --bootstrap-server kafka1:9092 --producer.config /etc/kafka/secrets/client.properties --topic test
 
     kafka-console-consumer --bootstrap-server kafka1:9092 --consumer.config /etc/kafka/secrets/client.properties --topic test
